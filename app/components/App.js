@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import ReactPlayer from '../../node_modules/react-player';
+import ReactPlayer from '../../node_modules/dist/ReactPlayer';
 
 class App extends React.Component {
   render() {
