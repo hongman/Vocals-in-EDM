@@ -12,7 +12,7 @@ class Home extends React.Component {
             <div className="panel">
               <div className="panel-body">
                 <h3>Facebook page 업로드 영상</h3>
-                <p>한글 테스트 가나다라마바사 아자카타동국대학교</p>
+                <p>한글 테스트 가나다라마바사 아자카타</p>
                 <a href="#" role="button" className="btn btn-default">View details</a>
               </div>
             </div>
@@ -23,7 +23,10 @@ class Home extends React.Component {
             <div className="panel">
               <div className="panel-body">
                 <h3>Youtube 영상</h3>
-                <p>팔정도를 향한 나의 마음</p>
+                <p>나와라라라아아아아</p>
+                /*
+                주석 테스트
+                */                
                 <a href="#" role="button" className="btn btn-default">View details</a>
               </div>
             </div>
