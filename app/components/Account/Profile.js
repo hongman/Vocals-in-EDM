@@ -52,6 +52,11 @@ class Profile extends React.Component {
     ) : (
       <a role="button" onClick={this.handleLink.bind(this, 'facebook')}>Link your Facebook account</a>
     );
+    const googleLinkedAccount = this.props.user.google ? (
+      <a role="button" className="text-danger" onClick={this.handleUnlink.bind(this, 'google')}>Unlink your Google account</a>
+    ) : (
+      <a role="button" onClick={this.handleLink.bind(this, 'google')}>Link your Google account</a>
+    );
     
     return (
       <div className="container">
@@ -140,6 +145,7 @@ class Profile extends React.Component {
               <div className="form-group">
                 <div className="col-sm-offset-3 col-sm-4">
                   <p>{facebookLinkedAccount}</p>
+                  <p>{googleLinkedAccount}</p>
                 </div>
               </div>
             </div>

@@ -44,7 +44,7 @@ class Header extends React.Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <IndexLink to="/" className="navbar-brand">취향저격 보컬있는 EDM</IndexLink>
+            <IndexLink to="/" className="navbar-brand">Project name</IndexLink>
           </div>
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav">

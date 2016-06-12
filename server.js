@@ -80,6 +80,8 @@ app.post('/reset/:token', userController.resetPost);
 app.get('/unlink/:provider', userController.ensureAuthenticated, userController.unlink);
 app.post('/auth/facebook', userController.authFacebook);
 app.get('/auth/facebook/callback', userController.authFacebookCallback);
+app.post('/auth/google', userController.authGoogle);
+app.get('/auth/google/callback', userController.authGoogleCallback);
 
 // React server rendering
 app.use(function(req, res) {
