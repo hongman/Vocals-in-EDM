@@ -6,7 +6,7 @@ Second changed by Hongmin Kim
 
 ### Configuration
 
-Node.js + Express.js + Jade + Bootstrap + less + React + npm + mysql + Azure(Deployment)
+Node.js(runtime) + Express.js + Jade + Bootstrap + less + React(UI Framework) + npm + mysql + Azure(Deployment)
 
 6월 12일 시작
 
