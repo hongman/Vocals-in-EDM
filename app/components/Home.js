@@ -19,6 +19,8 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="row">
           <div className="col-sm-4">
             <div className="panel">
               <div className="panel-body">
@@ -30,6 +32,8 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="row">
           <div className="col-sm-4">
             <div className="panel">
               <div className="panel-body">
