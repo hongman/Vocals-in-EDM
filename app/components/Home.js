@@ -24,9 +24,9 @@ class Home extends React.Component {
               <div className="panel-body">
                 <h3>Youtube 영상</h3>
                 <p>나와라라라아아아아</p>
-                /*
+                {/*
                 주석 테스트
-                */                
+                */}                
                 <a href="#" role="button" className="btn btn-default">View details</a>
               </div>
             </div>
