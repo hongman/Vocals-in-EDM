@@ -7,13 +7,13 @@ import { browserHistory } from 'react-router';
 // Sign in with Facebook
 export function facebookLogin() {
   const facebook = {
-    url: 'http://localhost:3000/auth/facebook',
-    clientId: '980220002068787',
-    redirectUri: 'http://localhost:3000/auth/facebook/callback',
-    authorizationUrl: 'https://www.facebook.com/v2.5/dialog/oauth',
+    url: 'http://localhost:3000/auth/facebook', /*URL 수정 부분*/
+    clientId: '980220002068787',   /*This is megaboilerplate's fb id*/
+    redirectUri: 'http://localhost:3000/auth/facebook/callback', /*리다이렉션 URL 지정 부분임*/
+    authorizationUrl: 'https://www.facebook.com/v2.5/dialog/oauth', /*SSL 인증 부분, API 참조*/
     scope: 'email,user_location',
-    width: 580,
-    height: 400
+    width: 1200,
+    height: 800
   };
 
   return (dispatch) => {
